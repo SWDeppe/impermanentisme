@@ -1,0 +1,83 @@
+.workOut {
+  background-color: rgb(14, 4, 7);
+  display: grid;
+  grid-template-columns: 45vw 10vw 45vw;
+  height: 100vh;
+  color: rgb(246, 246, 222);
+
+  font-family: 'Oswald', sans-serif;
+}
+.proccess {
+  background-color: rgb(26, 7, 13);
+}
+.pic1 img {
+  height: 50vh;
+  min-width: 20vw;
+  object-fit: cover;
+  object-position: top left;
+  margin-left: 10vw;
+}
+.pic2 img {
+  height: 50vh;
+  min-width: 20vw;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  right: 10vw;
+  margin-top: 5vh;
+}
+.pic1 .text1 {
+  height: 40vh;
+  margin: 0;
+  margin-top: 5vh;
+  width: 40vw;
+}
+.text1 p {
+  padding-left: 15px;
+}
+.pic1 h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2.1rem;
+}
+
+.pic2 .text2 {
+  height: 40vh;
+  margin: 0;
+  margin-top: 60vh;
+  width: 40vw;
+  margin-left: 4vw;
+}
+.text2 p {
+  padding-left: 15px;
+}
+.pic2 h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2.1rem;
+}
+.workOut a {
+  height: 15vh;
+  margin-top: 45vh;
+}
+.workOut button {
+  height: 100%;
+  width: 100%;
+  color: rgb(26, 7, 13);
+  background-color: rgb(246, 246, 222);
+
+  border-radius: 3vh;
+  border: none;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+}
+.workOut button:hover {
+  color: rgb(246, 246, 222);
+  background-color: rgb(26, 7, 13);
+}
+svg {
+  width: 4vw;
+  margin-top: -0.2vw;
+}

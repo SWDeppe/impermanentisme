@@ -1,0 +1,38 @@
+.workCavern {
+  background-color: rgb(246, 246, 222);
+  display: grid;
+  grid-template-columns: 45vw 10vw 45vw;
+  height: 100vh;
+  color: rgb(14, 4, 7);
+
+  font-family: 'Oswald', sans-serif;
+}
+.workCavern a {
+  height: 15vh;
+  margin-top: 45vh;
+}
+.workCavern button {
+  height: 100%;
+  width: 100%;
+
+  color: rgb(246, 246, 222);
+  background-color: rgb(26, 7, 13);
+  border-radius: 3vh;
+  border: none;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+}
+.workCavern button:hover {
+  color: rgb(26, 7, 13);
+  background-color: rgb(246, 246, 222);
+}
+svg {
+  width: 4vw;
+  margin-top: -0.2vw;
+}
+.workCavern .pic2 img {
+  right: auto;
+  left: 10vw;
+}

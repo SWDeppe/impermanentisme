@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.arrivingPage {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 3.5rem;
+  color: rgb(74, 18, 38);
+
+  background-color: rgb(246, 246, 222);
+  margin-top: 0vh;
+  position: relative;
+  top: 0;
+  z-index: 10;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.arrivingPage h2 {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-weight: 400;
+  z-index: 10;
+}
+.arrivingPage h1 {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-weight: 400;
+  z-index: 10;
+}
+.instant {
+  color: rgb(254, 254, 192);
+  color: rgb(192, 12, 13);
+  text-decoration-thickness: 3px;
+  font-weight: 600;
+}
+.mainImg {
+  height: 50%;
+  position: relative;
+  top: 0vh;
+}
+.header {
+  display: grid;
+  grid-template-columns: 20vw 60vw 20vw;
+  position: inherit;
+  top: 2vh;
+}
+.header p {
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+}
+section {
+  height: 100vh;
+  width: calc(100vw - (100% - 100vw));
+}
+
+@media only screen and (max-width: 600px) {
+  .arrivingPage {
+    font-size: 2rem;
+  }
+}
